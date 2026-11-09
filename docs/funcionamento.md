@@ -39,9 +39,9 @@ O Web PKI é o mesmo motor da Lacuna e usa o mesmo nome. Isso foi confirmado no 
 
 | | Web PKI | WebSigner |
 |---|---|---|
-| Versão | 2.16.1 | 2.15.0 |
-| Download | `https://get.webpkiplugin.com/Downloads/2.16.1/setup-deb-64` | `https://websigner.softplan.com.br/Downloads/2.15.0/webpki-chrome-64-deb` |
-| SHA256 | `a4ef76b1f0f5ff4489211b459d147ef0e2dea2ecad97d8f9ba2b0b283d3e3d85` | `04fa41e962d91e4d7337f4707479437bf660f19057fac63829fb46784ee08289` |
+| Versão | 2.17.0 | 2.15.0 |
+| Download | `https://get.webpkiplugin.com/Downloads/2.17.0/setup-deb-64` | `https://websigner.softplan.com.br/Downloads/2.15.0/webpki-chrome-64-deb` |
+| SHA256 | `cf284641bb3786dea6f3003fbcb5c0bf8b83cc9ab37975aa87ff68cdc42ac2f4` | `04fa41e962d91e4d7337f4707479437bf660f19057fac63829fb46784ee08289` |
 | Programa no `.deb` | `/opt/lacuna-webpki/webpki` | `/opt/softplan-websigner/websigner` |
 | Nome nativo | `com.lacunasoftware.webpki` | `br.com.softplan.webpki` |
 | Extensão (Chrome, Chromium, Brave) | `dcngeagmmhegagicpcmpinaoklddcgon` | `bbafmabaelnnkondpfpjmdklbmfnbmol` |

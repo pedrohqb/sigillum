@@ -23,7 +23,7 @@ CLIENTE=/usr/lib/x86_64-linux-gnu/pkcs11/p11-kit-client.so
 
 # componente | URL | SHA256 | caminho no .deb | nome nativo | pasta de dados | IDs Chrome/Edge | IDs Firefox
 COMPONENTES="
-webpki|https://get.webpkiplugin.com/Downloads/2.16.1/setup-deb-64|a4ef76b1f0f5ff4489211b459d147ef0e2dea2ecad97d8f9ba2b0b283d3e3d85|./opt/lacuna-webpki/webpki|com.lacunasoftware.webpki|.lacuna-webpki|dcngeagmmhegagicpcmpinaoklddcgon nedeegdmhlnmboboahchfpkmdnnemapd|webpki@lacunasoftware.com webpki-beta@lacunasoftware.com
+webpki|https://get.webpkiplugin.com/Downloads/2.17.0/setup-deb-64|cf284641bb3786dea6f3003fbcb5c0bf8b83cc9ab37975aa87ff68cdc42ac2f4|./opt/lacuna-webpki/webpki|com.lacunasoftware.webpki|.lacuna-webpki|dcngeagmmhegagicpcmpinaoklddcgon nedeegdmhlnmboboahchfpkmdnnemapd|webpki@lacunasoftware.com webpki-beta@lacunasoftware.com
 websigner|https://websigner.softplan.com.br/Downloads/2.15.0/webpki-chrome-64-deb|04fa41e962d91e4d7337f4707479437bf660f19057fac63829fb46784ee08289|./opt/softplan-websigner/websigner|br.com.softplan.webpki|.softplan-websigner|bbafmabaelnnkondpfpjmdklbmfnbmol|websigner@softplan.com.br websigner@softplan_com_br
 "
 

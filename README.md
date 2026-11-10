@@ -1,5 +1,16 @@
 # Sigillum
 
+> **Projeto arquivado.** O Sigillum foi substituído pelas **extensões de assinador web do Tessera**, publicadas no FlatPark: Lacuna Web PKI, Softplan WebSigner e, agora também, Certisign WebSigner. Elas fazem o mesmo que este script, mas são instaladas como qualquer extensão, atualizadas pelo FlatPark e configuradas pela própria janela do Tessera.
+>
+> **Para migrar:**
+>
+> 1. Remova o Sigillum: `./sigillum.sh remover`.
+> 2. Instale as extensões que você usa, na mesma instalação do Tessera (por exemplo, `flatpak install --system flatpark io.github.pedrohqb.Tessera.Signer.WebPKI io.github.pedrohqb.Tessera.Signer.SoftplanWebSigner`), e reinicie o Tessera pelo menu.
+> 3. Na seção **Assinadores web** do Tessera, copie e rode, uma vez, o comando de cada navegador. Reinicie o navegador.
+> 4. No plugin, deixe marcado **"Dispositivos SafeSign AET"** (no WebSigner da Certisign, **"SafeSign"**).
+>
+> Detalhes em [Assinadores web](https://github.com/pedrohqb/tessera/blob/main/docs/signers.md). O script continua aqui, mas não recebe mais atualizações: quando a Lacuna ou a Softplan publicarem uma versão nova, o SHA256 fixado deixa de conferir e a instalação falha.
+
 O Sigillum instala o **Lacuna Web PKI** e o **Softplan WebSigner** nos navegadores em Flatpak e os liga aos tokens do [**Tessera**](https://github.com/pedrohqb/tessera). Esses dois componentes são exigidos por alguns tribunais para assinar documentos, como o e-SAJ.
 
 Ele é um complemento provisório do Tessera: um script só, que instala e desinstala tudo, sem mexer no sistema nem no Tessera. Quando os tribunais deixarem de exigir esses componentes, basta removê-lo.

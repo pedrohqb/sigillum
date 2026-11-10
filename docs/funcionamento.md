@@ -1,5 +1,7 @@
 # Como o Sigillum funciona
 
+> **Projeto arquivado.** O Sigillum foi substituído pelas extensões de assinador web do Tessera, que seguem o mesmo princípio descrito aqui, a partir da pasta da extensão: veja [Assinadores web](https://github.com/pedrohqb/tessera/blob/main/docs/signers.md) e, para migrar, o [README](../README.md).
+
 ## O problema
 
 O Lacuna Web PKI e o Softplan WebSigner têm duas partes:
